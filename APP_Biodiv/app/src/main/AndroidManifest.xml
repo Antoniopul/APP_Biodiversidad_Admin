@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.app_biodiv">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Bio-Parques Irapuato"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.APP_Biodiv"
+        tools:targetApi="31">
+        <activity
+            android:name=".Fotos_Parq_Rel"
+            android:exported="false"
+            android:label="Fotografias"
+            android:parentActivityName=".Fotos_Parq">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Fotos_Bio_Rel"
+            android:exported="false"
+            android:label="Fotografias"
+            android:parentActivityName=".Fotos_Bio">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Fotos_Parq"
+            android:exported="false"
+            android:label="Parques disponibles"
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Fotos_Bio"
+            android:exported="false"
+            android:label="Biodiversidad disponible"
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Fotos_Parq_Reg"
+            android:exported="false"
+            android:label="Registrar fotografia">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Fotos_Bio_Reg"
+            android:exported="false"
+            android:label="Registrar fotografia">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".RelacionBiodiv"
+            android:exported="false"
+            android:label="Biodiversidad Registrada"
+            android:parentActivityName=".RelacionParq">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Relacion"
+            android:exported="false"
+            android:label="Especies Relacionas al Parque"
+            android:parentActivityName=".RelacionParq">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".RelacionParq"
+            android:exported="false"
+            android:label="Parques Registrados"
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Parques_Reg"
+            android:exported="false"
+            android:label="Registro de Parques"
+            android:parentActivityName=".Parque">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Administrador_EditDell"
+            android:exported="false"
+            android:label="Datos del Administrador"
+            android:parentActivityName=".Administrador">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Administrador"
+            android:exported="false"
+            android:label="Administradores"
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Biodiv"
+            android:exported="false"
+            android:label="Biodiversidad"
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Biodiv_Edit"
+            android:exported="false"
+            android:label="Editar Biodiversidad"
+            android:parentActivityName=".Biodiv">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Biodiv_Reg"
+            android:exported="false"
+            android:label="Resgistro de Biodiversidad"
+            android:parentActivityName=".Biodiv">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Parque_Edit"
+            android:exported="false"
+            android:label="Editar Parque"
+            android:parentActivityName=".Parque">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Parque"
+            android:exported="false"
+            android:label="Parques"
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false"
+            android:label="Bio-Parques Irapuato">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Administrador_Reg"
+            android:exported="false"
+            android:label="Registro de Adminstrador"
+            android:parentActivityName=".Administrador_LogIn">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Administrador_LogIn"
+            android:exported="false"
+            android:label="Bio-Parques Irapuato">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Bio-Parques Irapuato">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>
